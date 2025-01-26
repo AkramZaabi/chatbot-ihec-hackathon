@@ -1,0 +1,146 @@
+{
+  "intents": [
+    {
+      "tag": "Greeting users",
+      "patterns": [
+        "Hello",
+        "Hi there",
+        "Hey",
+        "Good morning",
+        "Salut",
+        "Bonjour",
+        "Coucou"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi! How can I help you?",
+        "Hey there! What can I do for you?",
+        "Good morning! How can I assist you?",
+        "Salut! Comment puis-je vous aider ?",
+        "Bonjour! Comment puis-je vous aider aujourd'hui ?",
+        "Coucou! Que puis-je faire pour vous ?"
+      ]
+    },
+    {
+      "tag": "Mission de l'Établissement",
+      "patterns": [
+        "What is the mission of our institution?",
+        "Quelle est la mission de notre établissement ?"
+      ],
+      "responses": [
+        "Our mission is to provide quality education accessible to all and promote innovation and research. Learn more here: [Mission of IHEC](https://ihec.rnu.tn/mission).",
+        "Notre mission est de fournir une éducation de qualité, accessible à tous, et de promouvoir l'innovation et la recherche. En savoir plus : [Mission de l'IHEC](https://ihec.rnu.tn/mission)."
+      ]
+    },
+    {
+      "tag": "Valeurs Fondamentales de l'Établissement",
+      "patterns": [
+        "What are the core values of our institution?",
+        "Quels sont les valeurs fondamentales de notre école ?"
+      ],
+      "responses": [
+        "Our values include integrity, academic excellence, diversity, and community engagement. Check out our values here: [IHEC Core Values](https://ihec.rnu.tn/values).",
+        "Nos valeurs incluent l'intégrité, l'excellence académique, la diversité et l'engagement communautaire. Consultez nos valeurs ici : [Valeurs Fondamentales de l'IHEC](https://ihec.rnu.tn/values)."
+      ]
+    },
+    {
+      "tag": "Effectif Étudiant",
+      "patterns": [
+        "How many students are enrolled this year?",
+        "Combien d'étudiants sont inscrits cette année ?"
+      ],
+      "responses": [
+        "This year, we have 10,000 students enrolled. Check the statistics: [Student Statistics](https://ihec.rnu.tn/statistics).",
+        "Cette année, nous avons 10 000 étudiants inscrits. Consultez les statistiques : [Statistiques Étudiantes](https://ihec.rnu.tn/statistics)."
+      ]
+    },
+    {
+      "tag": "Partenariats Académiques Internationaux",
+      "patterns": [
+        "What are the academic partnerships of the institution?",
+        "Quels sont les partenariats académiques de l'établissement ?"
+      ],
+      "responses": [
+        "We collaborate with international universities such as Harvard, Sorbonne, and the University of Tokyo. See partnerships: [IHEC Partnerships](https://ihec.rnu.tn/partnerships).",
+        "Nous collaborons avec des universités internationales comme Harvard, Sorbonne, et l'Université de Tokyo. Voir les partenariats : [Partenariats de l'IHEC](https://ihec.rnu.tn/partnerships)."
+      ]
+    },
+    {
+      "tag": "Programmes de Premier Cycle",
+      "patterns": [
+        "What undergraduate programs are offered?",
+        "Quels sont les programmes de premier cycle offerts ?"
+      ],
+      "responses": [
+        "We offer programs in computer science, business, social sciences, and engineering. For more details: [Undergraduate Programs](https://ihec.rnu.tn/undergraduate-programs).",
+        "Nous offrons des programmes en informatique, gestion, sciences sociales, et ingénierie. Pour plus de détails : [Programmes de Premier Cycle](https://ihec.rnu.tn/undergraduate-programs)."
+      ]
+    },
+    {
+      "tag": "Programmes de Cycle Supérieur",
+      "patterns": [
+        "What graduate programs are available?",
+        "Quels sont les programmes de cycle supérieur disponibles ?"
+      ],
+      "responses": [
+        "We offer Master's in Data Science, MBA, and Ph.D. programs in research. Learn more: [Graduate Programs](https://ihec.rnu.tn/graduate-programs).",
+        "Nous proposons des masters en Data Science, MBA, et des doctorats en recherche. En savoir plus : [Programmes de Cycle Supérieur](https://ihec.rnu.tn/graduate-programs)."
+      ]
+    },
+    {
+      "tag": "Programmes en Ligne",
+      "patterns": [
+        "Are there any online or distance learning programs?",
+        "Y a-t-il des programmes en ligne ou à distance ?"
+      ],
+      "responses": [
+        "Yes, we offer online programs for international students. Find out more: [Online Programs](https://ihec.rnu.tn/online-programs).",
+        "Oui, nous proposons des programmes en ligne pour les étudiants internationaux. Découvrez plus : [Programmes en Ligne](https://ihec.rnu.tn/online-programs)."
+      ]
+    },
+    {
+      "tag": "Frais d'Inscription",
+      "patterns": [
+        "Are there any enrollment fees? If yes, how much?",
+        "Y a-t-il des frais d'inscription ? Si oui, combien ?"
+      ],
+      "responses": [
+        "Yes, the enrollment fee is 200 euros for new students. See the fee details: [Enrollment Fees](https://ihec.rnu.tn/enrollment-fees).",
+        "Oui, les frais d'inscription sont de 200 euros pour les nouveaux étudiants. Consultez les détails des frais : [Frais d'Inscription](https://ihec.rnu.tn/enrollment-fees)."
+      ]
+    },
+    {
+      "tag": "Bourses d'Études",
+      "patterns": [
+        "Are there scholarships available?",
+        "Existe-t-il des bourses d'études disponibles ?"
+      ],
+      "responses": [
+        "Yes, we offer scholarships based on merit and financial need. For more information: [Scholarships](https://ihec.rnu.tn/scholarships).",
+        "Oui, nous offrons des bourses basées sur le mérite et les besoins financiers. Pour plus d'informations : [Bourses d'Études](https://ihec.rnu.tn/scholarships)."
+      ]
+    },
+    {
+      "tag": "Date Limite d'Inscription",
+      "patterns": [
+        "What is the application deadline?",
+        "Quelle est la date limite pour postuler ?"
+      ],
+      "responses": [
+        "The application deadline is June 30th each year. Find out more here: [Application Deadline](https://ihec.rnu.tn/application-deadline).",
+        "La date limite pour postuler est le 30 juin de chaque année. Découvrez plus ici : [Date Limite d'Inscription](https://ihec.rnu.tn/application-deadline)."
+      ]
+    },
+    {
+      "tag": "Activités Extrascolaires",
+      "patterns": [
+        "What extracurricular activities are offered?",
+        "Quelles activités extrascolaires sont proposées ?"
+      ],
+      "responses": [
+        "We offer sports clubs, cultural associations, and community events. For more activities: [Extracurricular Activities](https://ihec.rnu.tn/extracurricular-activities).",
+        "Nous proposons des clubs sportifs, des associations culturelles, et des événements communautaires. Pour plus d'activités : [Activités Extrascolaires](https://ihec.rnu.tn/extracurricular-activities)."
+      ]
+    }
+  ]
+}
