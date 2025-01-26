@@ -25,7 +25,7 @@
         </v-layout>
       </div>
     </div>
-    <div v-else class="row">
+    <div v-else style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px">
       <div v-for="feedback in feedbacks" :key="feedback.id" class="col-lg-4">
         <v-card max-width="344" outlined>
           <v-list-item three-line>
@@ -92,11 +92,7 @@ import feedbackService from '@/services/feedback.js';
 export default {
   name: "suggestion",
   mounted() {
-    window.Echo.channel('public').listen('FeedBackEvent', (e) => {
-      this.fetchData();
-      console.log("dddddddd");
-      this.changerPage(1);
-    })
+  
   },
   created() {
     this.fetchData();

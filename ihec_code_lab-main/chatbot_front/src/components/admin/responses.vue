@@ -71,16 +71,6 @@ export default {
                 this.responses = response.data.data;
             })
         },
-        confrimDelete(id) {
-            this.load = true;
-            feedbackService.DeleteFeedback(id).then((res) => {
-                this.snackbar = true;
-                this.message = res.data.data;
-                this.dialog = false;
-                this.load = false;
-                this.fetchData();
-            });
-        },
     },
     computed: {
 

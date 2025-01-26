@@ -1,34 +1,21 @@
 <template>
-  <v-app id="app">
+  <v-app>
     <preloaderVue></preloaderVue>
-    <router-view v-slot="{ Component }">
-        <component :is="Component" />
-    </router-view>
+    <v-main>
+      <router-view />
+    </v-main>
   </v-app>
 </template>
 
 <script>
-import AOS from "aos";
-import 'animate.css';
-import preloaderVue from './components/preloader.vue';
 export default {
-  name: 'App',
-  components: {
-    preloaderVue
-  },
-  mounted() {
-    AOS.init();
+  name: "App",
+  mounted(){
     let test = new SpeechSynthesisUtterance("welcome" );
     speechSynthesis.speak(test);
   },
-  data() {
-    return {
-
-    }
-  }
+  data: () => ({
+    //
+  }),
 };
 </script>
-
-<style scoped>
-
-</style>

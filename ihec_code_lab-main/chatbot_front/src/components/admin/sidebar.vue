@@ -4,7 +4,7 @@
       <ul>
         <li :class="small ? 'none_btn_open_close_sidebar' : ''" class="mb-5">
           <div href="#" :class="etatsidbar ? 'close' : ''" class="logo">
-            <img src="../../assets/logo.png" alt="">
+            <img src="src\assets\image.png" alt="">
           </div>
         </li>
         <li>

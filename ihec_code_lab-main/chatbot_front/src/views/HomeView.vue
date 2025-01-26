@@ -1,23 +1,21 @@
 <!-- <template>
-  <!-- <navBar/> -->
-  <!-- <chatbot /> -->
-<!-- </template> -->
+  <chatbot />
+</template>
 
-<!-- <script>
+<script>
 import { defineComponent } from "vue";
 
-import chatbot from "../components/chatbot.vue";
-// import navBar from "../components/Navbar.vue";
+import chatbot from "../components/Chatbot.vue";
 
 export default defineComponent({
   name: "HomeView",
 
   components: {
     chatbot,
-    // navBar,
   },
 });
 </script> -->
+
 
 <template>
   <div>
@@ -36,7 +34,6 @@ export default defineComponent({
 
     <!-- Hero Section -->
     <div class="hero">
-      <h1>Welcome to IHEC Carthage</h1>
     </div>
 
     <!-- Main Content -->
@@ -57,7 +54,7 @@ export default defineComponent({
         <p>Email: info@ihec.tn</p>
       </section>
     </div>
-
+    <chatbot />
     <!-- Footer Section -->
     <footer class="footer">
       <p>&copy; 2025 IHEC Carthage. All rights reserved.</p>
@@ -66,9 +63,16 @@ export default defineComponent({
 </template>
 
 <script>
+
+import chatbot from "../components/Chatbot.vue";
 export default {
   name: 'HomePage',
+
+  components: {
+    chatbot,
+  },
 };
+
 </script>
 
 <style scoped>
@@ -117,7 +121,7 @@ body {
 }
 
 .hero {
-  background: url('https://ihec.rnu.tn/assets/images/home-image.jpg') no-repeat center center/cover;
+  background: url('/src/assets/image.png') no-repeat center center/cover;
   color: white;
   height: 400px;
   display: flex;
@@ -156,6 +160,3 @@ body {
   margin-top: 2rem;
 }
 </style>
-
-
-

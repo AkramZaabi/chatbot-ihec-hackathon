@@ -52,7 +52,6 @@ export default {
       etatsidbar: false,
       show_all: true,
       snackbar: false,
-      snackbar: false,
       snackbar_edit: false,
       small: false,
       test_ischef: false
