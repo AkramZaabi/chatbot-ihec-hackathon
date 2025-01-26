@@ -1,6 +1,7 @@
 # Project Setup Guide
 
 This README provides step-by-step instructions to set up Laravel, Vue.js, and Python for your project.
+This chatbot was implemented in PyTorch and built using concepts from Natural Language Processing (NLP), combined with deep learning techniques
 
 ## Prerequisites
 
