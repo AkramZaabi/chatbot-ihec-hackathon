@@ -107,13 +107,12 @@ pip install flask django numpy pandas  # Replace with required libraries
 
 If using Flask:
 ```bash
+python train.py
+python app.py
 flask run
 ```
 
-If using Django:
-```bash
-python manage.py runserver
-```
+
 
 ## Additional Notes
 
