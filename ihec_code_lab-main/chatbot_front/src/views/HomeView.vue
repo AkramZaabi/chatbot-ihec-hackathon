@@ -64,7 +64,7 @@ export default defineComponent({
 
 <script>
 
-import chatbot from "../components/Chatbot.vue";
+import chatbot from "../components/chatbot.vue";
 export default {
   name: 'HomePage',
 
