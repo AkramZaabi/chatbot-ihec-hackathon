@@ -116,7 +116,7 @@ flask run
 
 
 ## Additional Notes
-
+link of the  presentation : https://www.canva.com/design/DAGdRjd4duI/NF2mwMe44u4kaKq9jiwneg/edit?utm_content=DAGdRjd4duI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ### Integration:
 - Laravel serves as the backend API
 - Vue.js acts as the frontend UI framework
